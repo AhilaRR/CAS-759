@@ -1,0 +1,44 @@
+section {
+    font-family: 'Playfair Display', serif;
+    text-align: justify;
+}
+
+.paragraph-list-item {
+    margin-bottom: 12px;
+}
+
+.education-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.education-details {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.degree,
+.timeline {
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.timeline {
+    font-size: 12px;
+    margin-left: 24px;
+    text-align: right;
+    width: 135px;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.skill-item {
+    width: 150px;
+}

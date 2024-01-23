@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harieshwar's Portfolio</title>
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/contact.css" />
+    <!-- Adding "Roboto" and "Playfair Display" fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet" />
+    <!-- Adding font-awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <!-- Header and Nav Bar -->
+    <header>
+        <div class="user-data">
+            <!-- Need to replace the characters in the "logo" class with an actual icon -->
+            <div class="page-logo">
+                <i class="fa fa-leaf logo-icon" aria-hidden="true"></i>
+                <span class="name">Harieshwar</span>
+            </div>
+            <div class="title">Portfolio</div>
+        </div>
+        <div class="navbar">
+            <a href="../index.html">HOME</a>
+            <a>BLOG</a>
+            <a href="./resume.html">RESUME</a>
+            <a href="./contact.html" class="selected">CONTACT</a>
+        </div>
+    </header>
+
+    <!-- Separator -->
+    <hr class="separator" />
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <h3 class="title">Contact Me</h3>
+        <div class="contact">
+            <form action="../index.html" method="get">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
