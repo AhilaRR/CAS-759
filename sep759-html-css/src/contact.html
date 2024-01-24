@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../stylesheets/styles.css" />
     <link rel="stylesheet" href="../stylesheets/contact.css" />
     <!-- Adding "Roboto" and "Playfair Display" fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Arial" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet" />
@@ -41,20 +41,24 @@
     <section id="contact-section">
         <h3 id="title">Contact Me</h3>
         <div id="contact">
-            <form action="../index.html" method="get">
+            <form action="./contact.html">
                 <div id="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required />
+                   <b> <label for="fname">First Name:</label></b>
+                    <input type="text" id="name" placeholder="Enter First Name" name="fname"  />
                 </div>
                 <div id="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required />
+                <b> <label for="lname">Surname</label></b>
+                   <input type="text" placeholder="Enter Surname" name="lname" >
                 </div>
                 <div id="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
+                <b> <label for="email">Email:</label></b>
+                    <input type="email" placeholder="Enter your personal email address" id="email" name="email" />
                 </div>
-                <button type="submit">Submit</button>
+                <div id="form-group">
+                <b> <label for="message">Message:</label><b>
+                    <textarea id="message" placeholder="Enter message" name="message"></textarea>
+                </div>
+            <b><button type="submit">Submit</button></b>
             </form>
         </div>
     </section>

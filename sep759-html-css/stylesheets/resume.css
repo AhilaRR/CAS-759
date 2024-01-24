@@ -1,5 +1,5 @@
 section {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', serif;
     text-align: justify;
 }
 
@@ -10,14 +10,14 @@ section {
 .education-item {
     display: flex;
     flex-direction: column;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 
 .education-details {
     align-items: flex-start;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 6px;
+    margin-bottom: 0px;
 }
 
 .degree,
@@ -30,7 +30,7 @@ section {
     font-size: 12px;
     margin-left: 24px;
     text-align: right;
-    width: 135px;
+    width: 150px;
 }
 
 .skill-list {
