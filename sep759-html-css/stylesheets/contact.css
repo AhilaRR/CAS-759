@@ -1,5 +1,9 @@
-.contact-section {
-    background-color: rgba(39, 88, 19, 0.3);
+* {
+    font-family: 'Tangerine', serif;
+}
+
+#contact-section {
+    background-color: rgba(67, 21, 126, 0.3);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 50px auto;
@@ -7,12 +11,12 @@
     width: 80%;
 }
 
-.contact {
+#contact {
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 480px;
 }
 
-.form-group {
+#form-group {
     margin-bottom: 20px;
 }
 
@@ -37,7 +41,7 @@ textarea {
 }
 
 button {
-    background-color: rgb(39, 88, 19);
+    background-color: rgb(67, 21, 126);
     border: none;
     border-radius: 4px;
     color: #fff;
@@ -47,5 +51,5 @@ button {
 }
 
 button:hover {
-    background-color: rgba(39, 88, 19, 0.7);
+    background-color: rgba(67, 21, 126, 0.5);
 }
